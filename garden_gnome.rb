@@ -27,20 +27,18 @@ class GardenGnome
   def gluten_allergy
     @gluten_allergy
   end 
-end
-def personality=(personality)
-  @personality=personality
-end 
-def hat_color(hat_color)
-  @hat_color=hat_color
-end 
-
-def gnaw
-  puts "Gnawing on a tree!!!"
-end
-def shout
-  puts "GNARLY!!!"
-end
+  def personality=(personality)
+    @personality=personality
+  end 
+  def hat_color(hat_color)
+    @hat_color=hat_color
+  end 
+  def gnaw
+    puts "Gnawing on a tree!!!"
+  end
+  def shout
+    puts "GNARLY!!!"
+  end
 end
 GardenGnome
   
