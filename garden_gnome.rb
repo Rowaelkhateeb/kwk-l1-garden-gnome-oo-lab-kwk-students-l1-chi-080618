@@ -41,5 +41,6 @@ end
 def shout
   puts "GNARLY!!!"
 end
+end
 GardenGnome
   
